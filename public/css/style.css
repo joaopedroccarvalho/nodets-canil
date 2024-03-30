@@ -1,9 +1,9 @@
 :root {
-    --pagebg: #FFF;
-    --main: #102581;
+    --pagebg: #000;
+    --main: #43853d;
     --bglink: rgba(0, 0, 0, 0.3);
     --darkbg: #FFF;
-    --lightbg: #000;
+    --lightbg: #43853d;
     --lighter: #444;
 }
 
@@ -37,6 +37,8 @@ header input {
     font-size: 14px;
     width: 100%;
     max-width: 200px;
+    background-color: #000;
+    color: #fff;
 }
 nav {
     background: var(--main);
@@ -118,6 +120,11 @@ footer {
     padding: 20px 0 !important;
     text-align: center;
     font-size: 16px;
+    color: var(--main);
+}
+footer a {
+    text-decoration: none;
+    font-weight: bold;
     color: var(--main);
 }
 
