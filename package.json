@@ -7,7 +7,7 @@
     "node": "20.11.1"
   },
   "scripts": {
-    "tsc": "tsc",
+    "build": "tsc",
     "start": "node dist/server.js",
     "postinstall": "tsc && copyfiles -u 1 src/**/*.mustache dist/",
     "test": "echo \"Error: no test specified\" && exit 1",
